@@ -1,0 +1,95 @@
+#sez1{
+    margin:0 15%;
+    margin-top: 8vh;
+}
+#foto1{
+    float:right;
+    width:35%;
+}
+#foto1 img{
+    width: 100%;
+    margin-top: 6%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#testo1{
+    float:left;
+    width:63%;
+}
+#testo1 p:not(:last-child){
+    font-size: 1.3rem;
+}
+#col1, #col2{
+    width:48.5%;
+    border-top: 0.2rem solid #99cbff;
+}
+#col1{
+    float:left;
+}
+#col2{
+    float:right;
+}
+
+#sez2{
+    clear:left;
+    padding:0 15%;
+    padding-top:9%;
+    background-color: #F2F2F2;
+    padding-bottom: 15%;
+}
+#foto2{
+    float:left;
+    width:49%;
+    margin-right:3%;
+}
+#foto2 img{
+    width: 100%;
+}
+
+#sez3{
+    margin:0 15%;
+}
+#foto3{
+    width: 30%;
+    float: right;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-55px);
+    background-color: #FFFFFF;
+}
+#foto3 img{
+    width: 98%;
+    padding: 20% 2%;
+}
+#foto3 p{
+    background-color: #99cbff;
+    padding: 6% 2%;
+    margin-bottom: 0;
+}
+#testo3{
+    display: block;
+    width: 60%;
+    float:left;
+}
+#font{
+    font-size: 1.3rem;
+}
+#col3{
+    width: 48.5%;
+    float: left;
+    border-right:1px solid rgba(128, 128, 128, 0.5);
+    padding-right: 1%;
+}
+#col4{
+    float: right;
+    padding-left: 1%;
+    width: 48.5%;
+}
+#col3 img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+#col4 img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}

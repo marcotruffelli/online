@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-rendering: optimizelegibility;/*ottimizza la leggibilità dei testi per gli schermi ad alta risoluzione*/
+    font-family: 'SequelSansHeadline', sans-serif;
+    text-align: justify;/*valutare se lasciarlo o no______________IMPORTANTE____________________*/
+    margin: 0;
+}
+.all{
+    width: 70%;
+    margin: 92px auto 0;/*centra TUTTO*/
+}
+
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #ffffffe0;
+    z-index: 2;
+}
+header img{
+    width: 20%;
+}
+header ul{
+    float: right;
+    width:100%;
+    text-align: right;
+}
+header ul:last-child{
+    margin-right: 16px;
+}
+header ul li{
+    display: inline;
+    font-size: 1vw;
+    font-weight:500;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    padding:1rem;/*Si basa sulla dimensione del carattere radice (<html>)*/
+}
+header a:hover:not(#logoH){
+    background-color: #78A5E1;
+}
+#logoH{
+    padding:0;
+}
+#first{
+    background-color: #78A5E1;
+}
+#last{
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #cecccc;
+    overflow: auto;
+    clear: both;
+}
+footer img {
+    width: 4%;
+    padding-top: 10px;
+    padding-left: 2px;
+    float:left;
+}
+footer ul {
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+footer ul li {
+    display: inline;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-right: 3rem;
+}
+footer p {
+    clear:left;
+    color: #414141;
+    text-align: right;
+    margin-right: 1%;
+}
+footer a{
+    text-decoration: none;
+    color:#000000;
+}
+footer a:hover{
+    color:#FFFFFF;
+}
+footer span{
+    font-family: initial;
+}
+p a{
+    color: #0077b6;
+    text-decoration: none;
+}

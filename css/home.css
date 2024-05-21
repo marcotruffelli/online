@@ -1,0 +1,50 @@
+#scritta{
+    background: radial-gradient(95% 100% at bottom left, #248DAE, #8CC3D4);/*Questa parte specifica il punto di partenza del gradiente e il raggio della radiazione*/
+    justify-content: center;/*viene utilizzata all'interno di un contenitore flessibile (come un elemento con display: flex; o display: inline-flex;) per allineare i suoi elementi figlio lungo l'asse principale in modo che siano centrati rispetto al contenitore*/
+    display: flex;/*L'elemento a cui viene applicato display: flex; diventa un "contenitore flessibile" (flex container). I figli diretti di questo elemento (i "flex items") sono influenzati dalle proprietà Flexbox applicate al contenitore*/
+}
+#scritta img{
+    width: 50%;
+    height: auto;
+    padding:20%;
+    padding-top: 15%;
+}
+.sez1{
+    display: flex;
+    align-items: center;
+    margin-top: -92px;/*non toccare!*/
+}
+.sez1 img, .sez2 img{
+    width: 50%;
+    max-height: 40vw; /* Altezza massima relativa alla larghezza */
+    object-fit: cover; /* Imposta l'immagine per coprire l'intero contenitore */
+}
+.sez1 p, .sez2 p{
+    width: 50%;
+    font-size: 1.8vw;
+}
+.sez1 img{
+    float: left;
+    clip-path: polygon(0% 0%, 65% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 65% 0%, 100% 100%, 0% 100%);/*è una proprietà CSS che viene utilizzata per definire una regione di clip (o ritaglio) su un elemento usando una forma geometrica specifica*/
+}
+.sez1 p{
+    float:right;
+    text-align: right;
+}
+
+.sez2{
+    padding: 0 15%;
+    margin:0 auto;
+    background-color: #F2F2F2;
+}
+.sez2 img{
+    clip-path: polygon(35% 0%, 100% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(35% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-bottom: -4px;
+}
+.sez2 p{
+    margin-top: 17%;
+    float:left;
+    text-align: left;
+}

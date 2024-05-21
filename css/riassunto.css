@@ -1,0 +1,41 @@
+body{
+    background: radial-gradient(100% 100% at top, #669bbccb, #a8dadc);
+}
+h1{
+    margin: 0.3em;
+    font-size: 3em;
+}
+h2{
+    margin-bottom: 0.5em;
+}
+.linea{
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+.punto{
+    max-width: 34em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+.punto div{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1.5em;
+    background-color: #FFFFFF;
+    box-shadow: -1px -1px 10px 14px #26a8db;
+}
+.punto p{
+    line-height: 27px;
+}
+
+.punto:nth-child(even) {
+    border-left: 3px solid #FFFFFF;
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+.punto:nth-child(odd){
+    border-right: 3px solid #FFFFFF;
+    padding-right: 3em;
+    transform: translateX(-17em);
+}

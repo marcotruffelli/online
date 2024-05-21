@@ -1,0 +1,103 @@
+#sez0{
+    overflow: auto;
+    margin:0 15%;
+    padding-bottom: 5%;
+}
+#testo1{
+    width:60%;
+    margin-top: 8vh;
+    float:right;
+}
+#foto1{
+    width: 35%;
+    margin-top: 8vh;
+    float:left;
+}
+#foto1 img{
+    width: 100%;
+    margin-top: 15%;
+    float: left;
+}
+.col1, .col2{
+    width: 48.5%;
+}
+.col1{
+    float: left;
+    border-right:1px solid rgba(128, 128, 128, 0.5);
+    padding-right: 1%;
+}
+.col2{
+    float: right;
+    padding-left: 1%;
+}
+
+#sez2{
+    background-color: #F2F2F2;
+    padding:0 15%;
+    padding-top: 2%;
+    padding-bottom: 20%;
+}
+#foto2{
+    float:right;
+    width:30%;
+    transform: translateY(-100px);
+}
+#foto2 img, #foto3 img, #foto4 img, #foto5 img{
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#testo2{
+    width:69%;
+    padding-bottom: 7%;
+}
+.col3, .col4{
+    float:left;
+    width: 45%;
+    border-top: 0.2rem solid #99cbff;
+}
+.col3{
+    margin-right: 2%;
+}
+.col4{
+    margin-left: 2%;
+}
+
+.sez1{
+    margin:0 15%;
+}
+#foto3{
+    width:50%;
+    transform: translateY(-60px);
+    float:left;
+}
+#testo3{
+    float:right;
+    width: 45%;
+}
+#sez3{
+    background-color: #F2F2F2;
+    padding:0 15%;
+    margin-top: 600px;
+    padding-bottom: 25%;
+}
+
+#foto4{
+    width: 45%;
+    float:right;
+    transform: translateY(-20px);
+}
+#testo4{
+    margin-top: 2%;
+    width: 53%;
+    float:left;
+}
+#foto5{
+    width: 30%;
+    float:left;
+    transform: translateY(-60px);
+}
+#testo5{
+    margin-top: 2%;
+    width: 65%;
+    float:right;
+}

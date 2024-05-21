@@ -1,0 +1,101 @@
+#all, #all2{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2rem; /*chiedi per i font*/
+}
+#nascitaAll img{
+    width: 40%;
+    float: left;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+#nascitaAll{
+    padding-top:8vh;
+    margin-bottom: 70vh;
+}
+#testo{
+    float: right;
+    width: 54%;
+}
+#testo > p{
+    margin-bottom: 0; /*avvicina le colonne alla frase sopra*/
+}
+#col1{
+    width: 48.5%;
+    float: left;
+    border-right:1px solid rgba(128, 128, 128, 0.5);
+    padding-right: 1%;
+}
+#col2{
+    float: right;
+    padding-left: 1%;
+    width: 48.5%;
+}
+#col1 p, #col2 p{
+    font-size:0.9rem;
+}
+
+#evoluzione{
+    padding: 0 15%;
+    overflow: auto;
+    background-color: #F2F2F2;
+    padding-bottom: 20%;
+}
+#testo2{
+    float:left;
+    width: 67%;
+}
+#col3, #col4{
+    float:left;
+    width: 40%;
+    font-size: 1.2rem;
+    border-top: 0.2rem solid #99cbff;
+}
+#col3{
+    margin-right: 4%;
+}
+#col3 img{
+    width: 100%;
+}
+#col4{
+    margin-left: 4%;
+}
+#foto{
+    float:right;
+    width:23%;
+    background-color: #99cbff;
+    transform: translateY(-1000px);
+    position: relative;
+    right: 15%;
+}
+#foto img{
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#foto p{
+    padding: 0 4%;
+    font-size: 1.3rem;
+}
+
+#foto2 {
+    width: 40%;
+    float: left;
+    transform: translateY(-100px);
+    margin-left: 15%;
+}
+#foto2 img {
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#community {
+    width: 27%;
+    float: right;
+    margin-top: -33vw;
+    clear:both;
+    position: relative;
+    right: 15%;
+}
+#community p:not(:last-child){
+    font-size: 1.3rem;
+}
+/*#F2F2F2 grigio figo*/

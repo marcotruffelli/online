@@ -1,0 +1,69 @@
+#sez1{
+    margin-top:8vh;
+}
+#testo1{
+    position: relative;
+    padding-bottom: 8%;
+    right: 5%;
+    top: 8%;
+    padding-top: 2%;
+    left: 44%;
+}
+#testo1 h1, #testo1 p{
+    width:50%;
+
+}
+#sfondo{
+    width: 100%;
+    background: radial-gradient(95% 100% at bottom left, #248DAE, #8CC3D4);
+}
+#testo1 p:not(:last-child){
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+}
+#foto1{
+    margin-left: 15%;
+    transform: translateY(-250px);
+}
+#foto1 img{
+    width:30%;
+    position: relative;
+    bottom: 16%;
+}
+#sez2{
+    position: relative;
+    bottom: 20%;
+    overflow: auto;
+}
+#testo2{
+    width:34%;
+    float:left;
+    position: relative;
+    left: 15%;
+}
+#testo2 p{
+    font-size: 0.9rem;
+}
+#testo2>p :nth-child(2){
+    font-size: 1.3rem;
+}
+#col1, #col2{
+    width:48.5%;
+    border-top: 0.2rem solid #99cbff;
+}
+#col1{
+    float:left;
+}
+#col2{
+    float:right;
+}
+#foto2{
+    width:34%;
+    float:right;
+    margin-right:11%;
+    margin-top: 5%;
+}
+#foto2 img{
+    width:100%;
+    margin-bottom:55%;
+}
