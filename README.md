@@ -26,14 +26,13 @@ online/
 ├── html/            # Subpages (if any)
 └── images/          # Visual assets
 
----
 
-⚡ Technologies Used
+## ⚡ Technologies Used
 
 HTML5
 
 CSS3
 
-👥 Collaborators
+## 👥 Collaborators
 
 This project was developed as part of a group school assignment. All members contributed to building the website.
