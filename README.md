@@ -25,7 +25,7 @@ online/
 ├── css/             # Additional CSS files
 ├── html/            # Subpages (if any)
 └── images/          # Visual assets
-
+```
 
 ## ⚡ Technologies Used
 
